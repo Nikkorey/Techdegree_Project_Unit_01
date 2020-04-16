@@ -137,7 +137,26 @@ a {
   text-align: center;
 }
 
-ul.skills {
+.icons {
+  text-align: center;
+}
+
+.icons p {
+  margin: 10px 60px;
+  border: solid 1px black;
+  background-color: #d9d9d9;
+}
+
+.fab {
+  margin: 0 8px;
+  text-align: center;
+}
+
+.fas {
+  margin: 10px;
+}
+
+/* ul.skills {
   padding: 0;
   text-align: center;
 }
@@ -153,7 +172,7 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
-}
+} */
 
 /* Experience */
 
@@ -329,11 +348,14 @@ a.social:hover {
     transform: scale(1.2) rotate(380deg);
   }
 
-  .form {
-    width: 600px;
-    margin: 0 auto;
-    margin-top: 50px;
+  .fab {
+    margin: 10px 20px;
   }
+
+  .fas {
+    margin: 10px 10px;
+  }
+
   .clearfix::after {
     content: "";
     clear: both;
